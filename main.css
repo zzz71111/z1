@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 18px;
+    background: #000;
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-left: 1000px;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: -44px;
+}
+.select{
+    color: #ffff;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    background-color: transparent;
+
+}
+.header__btn{
+    width: 192px;
+    background-color:#F1A900 ;
+    padding: 26px 0;
+    border: none;
+    color: #000;
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 19px;
+
+}
+.header__list{
+    background-color: #222;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    list-style: none;
+
+}
+.header__link{
+    color: #ffff;
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: none;
+}
+.hero{
+    padding-top: 349px;
+    padding-bottom: 142px;
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+}
+.btn1{
+    width: 235px;
+    background-color: #F1A900;
+    color: #000000;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    border: none;
+    transition:0.5s ease-in-out;
+
+}
+.btn2{
+    width: 235px;
+    background-color: #000;
+    color: #fff;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    border: none;
+    transition:0.5s ease-in-out;
+}
+.content{
+    width: 966px;
+    margin: 31px auto;
+    background-color: #F1A90054;
+    padding: 31px 0;
+    text-align: center;
+}
+.hero__title{
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+}
+.hero{
+    background-image: url("./026b441a88dfc0194633755f033f7f553dfded55.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+
+}
+.btn2:hover{
+    background-color: #F1A900;
+    color: black;
+}
+.img{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-top: 28px;
+    padding-bottom: 21px;
+    background: #000;      
+}
+.uas{
+    margin-left: -1000px;
+}
+.pas{
+    margin-left: -1000px;
+}
